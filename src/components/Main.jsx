@@ -38,6 +38,17 @@ const FAQItem = ({ question, answer }) => {
   );
 };
 
+const MobileVersion = () => {
+  return (
+    <div className="mobile-version">
+      <h2>Mobile Version</h2>
+      <p>
+        This is the mobile version of the website. It is optimized for smaller screens and provides a user-friendly experience for mobile users.
+      </p>
+    </div>
+  );
+};
+
 const Main = () => {
   const faqItems = [
     {
@@ -140,6 +151,7 @@ const Main = () => {
           </a>
         </div>
       </div>
+      <MobileVersion />
     </div>
   );
 };
