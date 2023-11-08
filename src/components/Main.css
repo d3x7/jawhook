@@ -1,0 +1,157 @@
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+ul {
+  text-align: center;
+}
+
+li {
+  font-size: 1rem;
+  font-weight: 200;
+  list-style: none;
+  display: inline;
+  margin: 30px;
+}
+.products a {
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  border: 2px solid #ff6f00;
+  padding: 10px 30px;
+  background-color: #ff6f00;
+}
+
+.products a:hover {
+  background-color: black;
+  transition: ease 0.3s;
+}
+
+.functional li {
+  padding: 10px;
+  border: 1px solid #ff6f00;
+  border-radius: 15px;
+}
+.functional p {
+  text-align: justify;
+}
+.functional h3 {
+  text-align: center;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 40px;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 0;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.product {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ff6f00;
+  margin: 40px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.product img {
+  width: 300px;
+}
+
+.coast {
+  color: #ff6f00;
+}
+.contacts {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.contacts a {
+  color: #ff6f00;
+}
+
+.faq a {
+  color: #ff6f00;
+}
+
+.faq p {
+  font-weight: 300;
+}
+.faq h3 {
+  display: flex;
+  align-items: center;
+}
+
+.faq {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+.answer {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+.rotate-arrow {
+  transform: rotate(180deg);
+  transition: transform 0.2s ease-in-out;
+}
+
+.contacts-social {
+  border-radius: 20px;
+  padding: 10px 20px;
+  align-items: center;
+  border: 1px solid #ff6f00;
+  display: flex;
+  flex-direction: column;
+}
+.contacts-devs {
+  border-radius: 20px;
+  padding: 10px 20px;
+  align-items: center;
+  border: 1px solid #ff6f00;
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts-social a {
+  margin: 10px 0;
+}
+
+.contacts-social a:first-child {
+  margin: 0;
+}
+.contacts-devs a {
+  margin: 10px 0;
+}
+
+.contacts-devs a:first-child {
+  margin: 0;
+}
